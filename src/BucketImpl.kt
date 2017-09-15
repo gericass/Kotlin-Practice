@@ -7,7 +7,6 @@ interface Bucket {
 
     val capacity: Int
     var quantity: Int
-
 }
 
 class BucketImpl(_capacity: Int) : Bucket {
