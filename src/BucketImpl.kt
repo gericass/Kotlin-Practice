@@ -9,6 +9,10 @@ interface Bucket {
     var quantity: Int
 }
 
+interface Inherit: Bucket {
+    fun add()
+}
+
 class BucketImpl(_capacity: Int) : Bucket {
     override val capacity = _capacity
     override var quantity: Int = 0
@@ -27,6 +31,31 @@ class BucketImpl(_capacity: Int) : Bucket {
             that.fill()
             quantity -= thatVacuity
         }
+    }
+
+}
+
+class IinheritImpl(_capacity: Int) : Inherit {
+    override val capacity = _capacity
+    override var quantity: Int = 0
+    override fun fill(){
+        quantity = capacity
+    }
+    override fun drainAway(){
+        quantity = 0
+    }
+    override fun pourTo(that: Bucket){
+        val thatVacuity = that.capacity - that.quantity
+        if(capacity <= thatVacuity){
+            that.quantity += quantity
+            drainAway()
+        }else{
+            that.fill()
+            quantity -= thatVacuity
+        }
+    }
+    override fun add() { //継承したインターフェースのメンバ
+        println("add")
     }
 }
 
