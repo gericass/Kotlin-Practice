@@ -8,14 +8,18 @@ class Person {
         }
 
     var age: Int = 0
+
     val nameLength: Int
         get(): Int {
             return this.name.length
         }
+
+
+    //fun getNameLength(): Int = this.name.length //Kotlinの作法的にNGなのでカスタムゲッターを作りましょう
 }
 
 fun main(args: Array<String>){
     val hanako = Person()
     hanako.name = "はなこ"
-    println(hanako.name)
+    println(hanako.nameLength)
 }
