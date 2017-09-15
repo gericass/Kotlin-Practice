@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20a179c1-bef4-4e91-923e-d4180a0a446f" name="Default" comment="add: constructor">
+    <list default="true" id="20a179c1-bef4-4e91-923e-d4180a0a446f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Greeter.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/BucketImpl/BucketImpl.class" afterPath="$PROJECT_DIR$/out/production/untitled/BucketImpl/BucketImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/BucketImpl/BucketImplKt.class" afterPath="$PROJECT_DIR$/out/production/untitled/BucketImpl/BucketImplKt.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled/META-INF/untitled.kotlin_module" afterPath="$PROJECT_DIR$/out/production/untitled/META-INF/untitled.kotlin_module" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BucketImpl.kt" afterPath="$PROJECT_DIR$/src/BucketImpl.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,16 +38,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testIf.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testIf.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="kokai.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kokai.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,11 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BucketImpl.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BucketImpl.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BucketImpl.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="820">
               <caret line="56" column="43" lean-forward="false" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Greeter.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Greeter.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -151,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/constructor.kt" />
         <option value="$PROJECT_DIR$/src/inheritance.kt" />
         <option value="$PROJECT_DIR$/src/BucketImpl.kt" />
+        <option value="$PROJECT_DIR$/src/Greeter.kt" />
       </list>
     </option>
   </component>
@@ -220,10 +223,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.InheritanceKt">
+  <component name="RunManager" selected="Kotlin.GreeterKt">
     <configuration name="BucketImpl.BucketImplKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="BucketImpl.BucketImplKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="untitled" />
+      <envs />
+    </configuration>
+    <configuration name="GreeterKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="GreeterKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -350,32 +365,20 @@
       <module name="untitled" />
       <envs />
     </configuration>
-    <configuration name="obj.ObjKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="obj.ObjKt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="untitled" />
-      <envs />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Kotlin.obj.ObjKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.BucketImpl.BucketImplKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.member.MemberKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.constructor.ConstructorKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.InheritanceKt" />
+      <item index="0" class="java.lang.String" itemvalue="Kotlin.BucketImpl.BucketImplKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.member.MemberKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.constructor.ConstructorKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.InheritanceKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.GreeterKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.InheritanceKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.constructor.ConstructorKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.member.MemberKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.BucketImpl.BucketImplKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.obj.ObjKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.GreeterKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.InheritanceKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.constructor.ConstructorKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.member.MemberKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.BucketImpl.BucketImplKt" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +394,7 @@
       <updated>1505297243007</updated>
       <workItem from="1505297246627" duration="2948000" />
       <workItem from="1505300217924" duration="6247000" />
-      <workItem from="1505354242720" duration="24803000" />
+      <workItem from="1505354242720" duration="26276000" />
     </task>
     <task id="LOCAL-00001" summary="add: constructor">
       <created>1505456011733</created>
@@ -428,11 +431,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505474448838</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add: constructor">
+      <created>1505481876601</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1505481876601</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33998000" />
+    <option name="totallyTimeSpent" value="35471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -447,8 +457,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1874106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -586,6 +596,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/BucketImpl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="56" column="43" lean-forward="false" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/inheritance.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -594,10 +612,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BucketImpl.kt">
+    <entry file="file://$PROJECT_DIR$/src/Greeter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="56" column="43" lean-forward="false" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+        <state relative-caret-position="370">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding />
         </state>
       </provider>
