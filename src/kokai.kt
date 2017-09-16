@@ -24,5 +24,4 @@ fun main(args: Array<String>){
     }
     var num = first("aiUeo",::isCamel)//関数に関数を渡す（高階関数）
     println(num)
-    (1..10).toList()
 }
