@@ -11,7 +11,7 @@ interface Bucket {
 
 }
 
-fun createBucket(capacity: Int): Bucket = object : Bucket{
+fun createBucket(capacity: Int): Bucket = object : Bucket{ //Bucketオブジェクトを生成する関数
     var _quantity: Int = 0
     override fun fill() {
         setQuantity(getCapacity())
