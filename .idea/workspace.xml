@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20a179c1-bef4-4e91-923e-d4180a0a446f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/otherMethods.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/null.kt" afterPath="$PROJECT_DIR$/src/null.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="null.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="null.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/null.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="6" column="101" lean-forward="false" selection-start-line="6" selection-start-column="101" selection-end-line="6" selection-end-column="101" />
+            <state relative-caret-position="480">
+              <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="otherMethods.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/otherMethods.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -144,6 +154,7 @@
         <option value="$PROJECT_DIR$/src/generics.kt" />
         <option value="$PROJECT_DIR$/src/kokai.kt" />
         <option value="$PROJECT_DIR$/src/null.kt" />
+        <option value="$PROJECT_DIR$/src/otherMethods.kt" />
       </list>
     </option>
   </component>
@@ -213,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.NullKt">
+  <component name="RunManager" selected="Kotlin.OtherMethodsKt">
     <configuration name="GenericsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="GenericsKt" />
@@ -253,6 +264,18 @@
     <configuration name="NullKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="NullKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="untitled" />
+      <envs />
+    </configuration>
+    <configuration name="OtherMethodsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="OtherMethodsKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -343,32 +366,20 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="constructor.ConstructorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="constructor.ConstructorKt" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="untitled" />
-      <envs />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Kotlin.constructor.ConstructorKt" />
-      <item index="1" class="java.lang.String" itemvalue="Kotlin.InheritanceKt" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.GreeterKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.GenericsKt" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.NullKt" />
+      <item index="0" class="java.lang.String" itemvalue="Kotlin.InheritanceKt" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.GreeterKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.GenericsKt" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.NullKt" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.OtherMethodsKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.NullKt" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.GenericsKt" />
-        <item index="2" class="java.lang.String" itemvalue="Kotlin.GreeterKt" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.InheritanceKt" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.constructor.ConstructorKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.OtherMethodsKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.NullKt" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.GenericsKt" />
+        <item index="3" class="java.lang.String" itemvalue="Kotlin.GreeterKt" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.InheritanceKt" />
       </list>
     </recent_temporary>
   </component>
@@ -384,7 +395,7 @@
       <updated>1505297243007</updated>
       <workItem from="1505297246627" duration="2948000" />
       <workItem from="1505300217924" duration="6247000" />
-      <workItem from="1505354242720" duration="37287000" />
+      <workItem from="1505354242720" duration="38126000" />
     </task>
     <task id="LOCAL-00001" summary="add: constructor">
       <created>1505456011733</created>
@@ -456,14 +467,22 @@
       <option name="project" value="LOCAL" />
       <updated>1505539862621</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add: null">
+      <created>1505549646289</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1505549646289</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46482000" />
+    <option name="totallyTimeSpent" value="47321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -674,8 +693,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/null.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="6" column="101" lean-forward="false" selection-start-line="6" selection-start-column="101" selection-end-line="6" selection-end-column="101" />
+        <state relative-caret-position="480">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/otherMethods.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
           <folding />
         </state>
       </provider>
